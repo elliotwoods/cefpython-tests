@@ -1,0 +1,101 @@
+
+[2018-08-12 13:15:07] Traceback (most recent call last):
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2625, in debug
+    exec_file(file, globals_obj)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\1. Local file\main.py", line 43, in <module>
+    main()
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\1. Local file\main.py", line 19, in main
+    client_handlers = [LoadHandler(), DisplayHandler()]
+NameError: name 'LoadHandler' is not defined
+
+
+[2018-08-12 13:36:04] Traceback (most recent call last):
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2625, in debug
+    exec_file(file, globals_obj)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\1. Local file\main.py", line 42, in <module>
+    main()
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\1. Local file\main.py", line 21, in main
+    cef.Initialize(settings=settings)
+  File "cefpython_py36.pyx", line 627, in cefpython_py36.Initialize
+  File "settings.pyx", line 133, in cefpython_py36.SetApplicationSettings
+Exception: Invalid appSettings key: file_access_from_file_urls_allowed
+
+
+[2018-08-12 13:51:08] Traceback (most recent call last):
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2625, in debug
+    exec_file(file, globals_obj)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Pass an object\main.py", line 44, in <module>
+    main()
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Pass an object\main.py", line 19, in main
+    global_handler = GlobalHandler()
+NameError: name 'GlobalHandler' is not defined
+
+
+[2018-08-12 13:53:17] Traceback (most recent call last):
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2625, in debug
+    exec_file(file, globals_obj)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Pass an object\passAnObject.py", line 44, in <module>
+    main()
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Pass an object\passAnObject.py", line 19, in main
+    cef.SetGlobalClientCallback(on_after_create)
+  File "cefpython_py36.pyx", line 955, in cefpython_py36.SetGlobalClientCallback
+TypeError: SetGlobalClientCallback() takes exactly 2 positional arguments (1 given)
+
+
+[2018-08-12 13:53:48] Traceback (most recent call last):
+  File "lifespan_handler.pyx", line 90, in cefpython_py36.LifespanHandler_OnAfterCreated
+TypeError: on_after_create() got an unexpected keyword argument 'browser'
+
+
+[2018-08-12 14:01:36] Traceback (most recent call last):
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2625, in debug
+    exec_file(file, globals_obj)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "c:\Users\kimchips\.vscode\extensions\ms-python.python-2018.7.1\pythonFiles\PythonTools\visualstudio_py_util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Handlers\handlers.py", line 57, in <module>
+    main()
+  File "c:\Users\kimchips\Dropbox (Kimchi and Chips)\Rulr 2.0\move me! - cef tests in windows\2. Handlers\handlers.py", line 26, in main
+    browser.SetClientHandler(clientHandler)
+  File "browser.pyx", line 250, in cefpython_py36.PyBrowser.SetClientHandler
+  File "browser.pyx", line 263, in cefpython_py36.PyBrowser.SetClientHandler
+  File "browser.pyx", line 246, in cefpython_py36.PyBrowser.SetClientCallback
+Exception: Browser.SetClientCallback() failed: unknown callback: OnAfterCreated
+
+
+[2018-08-14 19:32:19] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 42, in cefpython_py36.V8FunctionHandler_Execute
+TypeError: testMethod() missing 1 required positional argument: 'return_callback'
+
+
+[2018-08-14 19:34:21] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 42, in cefpython_py36.V8FunctionHandler_Execute
+TypeError: testMethod() missing 1 required positional argument: 'return_callback'
+
