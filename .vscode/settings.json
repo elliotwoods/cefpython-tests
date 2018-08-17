@@ -1,3 +1,7 @@
 {
-	"python.pythonPath": "C:\\Users\\kimchips\\Anaconda3\\envs\\Rulr\\python.exe"
+	"python.pythonPath": "C:\\Users\\kimchips\\Anaconda3\\envs\\Rulr\\python.exe",
+	"files.exclude": {
+        "**/blob_storage/": true,
+        "**/webrtc_event_logs": true,
+    },
 }
